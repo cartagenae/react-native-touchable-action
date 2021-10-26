@@ -25,7 +25,7 @@ https://user-images.githubusercontent.com/6395465/138800685-8761f2b2-d6ea-45e4-8
 
 > For a list of IconSources and iconNames, please refer to https://icons.expo.fyi
 
-<img width="1792" alt="icons reference" src="https://user-images.githubusercontent.com/6395465/138817240-499926d6-be59-4f21-a93a-6258b3375efb.png">
+<img width="1791" alt="expo icons reference" src="https://user-images.githubusercontent.com/6395465/138818042-1aad09f6-53a0-4975-987a-073ca4f7039d.png">
 
 #### Basic Usage
 ```
