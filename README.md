@@ -5,12 +5,13 @@
 ### How to use
 ##### * Copy the entire FloatingActionButton.js from this repository
 
+
 https://user-images.githubusercontent.com/6395465/138796848-4c63ddc3-3d40-4780-8b22-5eb0657ac6f4.mov
 
 ---
 
 ##### * Create a FloatingActionButton.js component file and paste it there
-_
+
 
 https://user-images.githubusercontent.com/6395465/138798075-6f9659cd-1f3a-4101-b146-0355a6f595f3.mov
 
