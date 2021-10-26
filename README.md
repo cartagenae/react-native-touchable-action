@@ -23,9 +23,11 @@ https://user-images.githubusercontent.com/6395465/138800685-8761f2b2-d6ea-45e4-8
 
 ## Reference
 
-#### Basic Usage
 > For a list of IconSources and iconNames, please refer to https://icons.expo.fyi
 
+<img width="1792" alt="icons reference" src="https://user-images.githubusercontent.com/6395465/138817240-499926d6-be59-4f21-a93a-6258b3375efb.png">
+
+#### Basic Usage
 ```
 <FloatingActionButton
   IconSource={}
