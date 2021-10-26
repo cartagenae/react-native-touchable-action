@@ -62,7 +62,7 @@ https://user-images.githubusercontent.com/6395465/138800685-8761f2b2-d6ea-45e4-8
 ###### The color of the button when pressed in
 ---
 #### buttonSize
-> type: Object({Number})
+> type: Object({Number})<br/>
 > Default: 65
 ###### The size of the button
 ---
