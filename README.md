@@ -48,9 +48,36 @@ https://user-images.githubusercontent.com/6395465/138800685-8761f2b2-d6ea-45e4-8
 ###### The name of the icon
 ---
 #### onPress
-> type: Function
+> type: Object({Function})
 ###### The action when the user presses the button
 ---
+#### buttonColor
+> type: Object({String})
+###### The color of the button
+---
+#### buttonColorPressed
+> type: Object({String})
+###### The color of the button when pressed in
+---
+#### buttonSize
+> type: Object({Number})
+###### The size of the button
+---
+#### iconSize
+> type: Object({Number})
+###### The size of the icon inside the button
+---
+#### iconColor
+> type: Object({String})
+###### The color of the icon inside the button
+---
+#### iconColorPressed
+> type: Object({String})
+###### The color of the icon color when the button is pressed
+---
+#### shaded
+> type: Object({Boolean})
+###### The shadow underneath the button when not pressed in
 
 ## License
 
