@@ -3,7 +3,7 @@
 ###### A simple floating action button component for any React Native project using Expo
 
 ### How to use
----
+-
 
 ## License
 
