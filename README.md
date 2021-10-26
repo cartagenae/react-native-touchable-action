@@ -52,12 +52,12 @@ https://user-images.githubusercontent.com/6395465/138800685-8761f2b2-d6ea-45e4-8
 ###### The action when the user presses the button
 ---
 #### buttonColor
-> type: Object({String})
+> type: Object({String})<br/>
 > Default: #480ca8
 ###### The color of the button
 ---
 #### buttonColorPressed
-> type: Object({String})
+> type: Object({String})<br/>
 > Default: #6a4c93
 ###### The color of the button when pressed in
 ---
@@ -67,22 +67,22 @@ https://user-images.githubusercontent.com/6395465/138800685-8761f2b2-d6ea-45e4-8
 ###### The size of the button
 ---
 #### iconSize
-> type: Object({Number})
+> type: Object({Number})<br/>
 > Default: 40
 ###### The size of the icon inside the button
 ---
 #### iconColor
-> type: Object({String})
+> type: Object({String})<br/>
 > Default: #edf6f9
 ###### The color of the icon inside the button
 ---
 #### iconColorPressed
-> type: Object({String})
+> type: Object({String})<br/>
 > Default: #e2eafc
 ###### The color of the icon color when the button is pressed
 ---
 #### shaded
-> type: Object({Boolean})
+> type: Object({Boolean})<br/>
 > Default: false
 ###### The shadow underneath the button when not pressed in
 
