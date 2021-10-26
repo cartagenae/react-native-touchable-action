@@ -51,7 +51,7 @@ https://user-images.githubusercontent.com/6395465/138800685-8761f2b2-d6ea-45e4-8
 > type: Object({Function})
 ###### The action when the user presses the button
 ---
-#### buttonColor
+#### buttonColor > Hello
 > type: String<br/>
 > <br/>
 > Default: #480ca8
