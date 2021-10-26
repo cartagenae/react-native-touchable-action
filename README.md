@@ -39,11 +39,11 @@ https://user-images.githubusercontent.com/6395465/138800685-8761f2b2-d6ea-45e4-8
 ```
 
 ### Props:
-#### IconSource:
+#### IconSource (required)
 > type: String
 ###### The source of the icon
 ---
-#### iconName:
+#### iconName (required)
 > type: String
 ###### The name of the icon
 
