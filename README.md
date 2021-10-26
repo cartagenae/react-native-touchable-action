@@ -29,7 +29,7 @@ https://user-images.githubusercontent.com/6395465/138800685-8761f2b2-d6ea-45e4-8
 
 #### Basic Usage
 ```
-<<span style={'color: green;'}>FloatingActionButton</span>
+<<span style='color: green;'>FloatingActionButton</span>
   IconSource='Ionicons'
   iconName='rocket'
   onPress={() => {
