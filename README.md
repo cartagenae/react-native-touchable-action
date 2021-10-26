@@ -26,9 +26,11 @@ https://user-images.githubusercontent.com/6395465/138800685-8761f2b2-d6ea-45e4-8
 #### Basic Usage
 ```
 <FloatingActionButton
-  icon={}
-  component={}
-  onPress={() => ()}
+  IconSource={}
+  iconName={}
+  onPress={() => {
+    console.log('You pressed your Floating Action Button');
+  }
 />
 ```
 
