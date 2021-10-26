@@ -9,7 +9,7 @@ https://user-images.githubusercontent.com/6395465/138796848-4c63ddc3-3d40-4780-8
 
 ---
 
-- Paste create a FloatingActionButton.js component file and paste it there
+- Create a FloatingActionButton.js component file and paste it there
 
 
 ## License
