@@ -34,7 +34,7 @@ https://user-images.githubusercontent.com/6395465/138800685-8761f2b2-d6ea-45e4-8
   iconName='rocket'
   onPress={() => {
     console.log('You pressed the rocket button');
-  }
+  }}
 />
 ```
 
@@ -56,12 +56,37 @@ https://user-images.githubusercontent.com/6395465/138800685-8761f2b2-d6ea-45e4-8
 > <br/>
 > Default: #480ca8
 ###### The color of the button
+<br />
+Example:
+```
+<FloatingActionButton
+  IconSource='Ionicons'
+  iconName='rocket'
+  onPress={() => {
+    console.log('You pressed the rocket button');
+  }}
+  buttonColor='#0F044C'
+/>
+```
 ---
 #### buttonColorPressed
 > type: String<br/>
 > <br/>
 > Default: #6a4c93
 ###### The color of the button when pressed in
+<br />
+Example:
+```
+<FloatingActionButton
+  IconSource='Ionicons'
+  iconName='rocket'
+  onPress={() => {
+    console.log('You pressed the rocket button');
+  }}
+  buttonColor='#0F044C'
+  buttonColorPressed='#693C72'
+/>
+```
 ---
 #### buttonSize
 > type: Object({Number})<br/>
