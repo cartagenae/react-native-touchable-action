@@ -20,7 +20,7 @@ import {
   Zocial
 } from '@expo/vector-icons';
 
-const FloatingActionButton = (props) => {
+const FloatingActionButton = props => {
   const {
     buttonColor,
     buttonColorPressed,
