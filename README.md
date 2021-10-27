@@ -50,15 +50,21 @@ https://user-images.githubusercontent.com/6395465/138800685-8761f2b2-d6ea-45e4-8
 #### IconSource (required)
 > type: String
 ###### The source of the icon
----
+
+##
+
 #### iconName (required)
 > type: String
 ###### The name of the icon
----
+
+##
+
 #### onPress
 > type: Object({Function})
 ###### The action when the user presses the button
----
+
+##
+
 #### buttonColor
 > type: String - Default: #480ca8
 ###### The color of the button
@@ -79,7 +85,9 @@ https://user-images.githubusercontent.com/6395465/138800685-8761f2b2-d6ea-45e4-8
   buttonColor='#0F044C'
 />
 ```
----
+
+##
+
 #### buttonColorPressed
 > type: String - Default: #6a4c93
 ###### The color of the button when pressed in
@@ -106,7 +114,9 @@ https://user-images.githubusercontent.com/6395465/138800685-8761f2b2-d6ea-45e4-8
   buttonColorPressed='#693C72'
 />
 ```
----
+
+##
+
 #### buttonSize
 > type: Object({Number}) - Default: 65
 ###### The size of the button
@@ -134,7 +144,9 @@ https://user-images.githubusercontent.com/6395465/138800685-8761f2b2-d6ea-45e4-8
   buttonSize={75}
 />
 ```
----
+
+##
+
 #### iconSize
 > type: Object({Number}) - Default: 40
 ###### The size of the icon inside the button.
@@ -163,7 +175,9 @@ https://user-images.githubusercontent.com/6395465/138800685-8761f2b2-d6ea-45e4-8
   iconSize={35}
 />
 ```
----
+
+##
+
 #### iconColor
 > type: String - Default: #edf6f9
 ###### The color of the icon inside the button
@@ -188,7 +202,9 @@ https://user-images.githubusercontent.com/6395465/138800685-8761f2b2-d6ea-45e4-8
   iconColor='#edf6f9'
 />
 ```
----
+
+##
+
 #### iconColorPressed
 > type: String - Default: #e2eafc
 ###### The color of the icon color when the button is pressed
@@ -219,7 +235,9 @@ https://user-images.githubusercontent.com/6395465/138800685-8761f2b2-d6ea-45e4-8
   iconColorPressed='#c9ccd5'
 />
 ```
----
+
+##
+
 #### shaded
 > type: Object({Boolean}) - Default: false
 ###### The shadow underneath the button when not pressed in. Works best in Light Mode
