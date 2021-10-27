@@ -167,7 +167,7 @@ https://user-images.githubusercontent.com/6395465/138800685-8761f2b2-d6ea-45e4-8
 > type: Object({Boolean}) - Default: false
 ###### The shadow underneath the button when not pressed in. Best implemented in Light Mode
 
-<p>Shaded <img width="100" alt="Shaded" src="https://user-images.githubusercontent.com/6395465/138991431-54e6bcc1-37f6-4663-8f24-83864e4e9f09.png">&emsp;&emsp;&emsp;Not Shaded <img width="100" alt="Not Shaded" src="https://user-images.githubusercontent.com/6395465/138991481-6ce5c66d-ae9b-4cdc-892e-0fbc0b046c73.png"></p>
+<p>Shaded <img width="100" alt="Shaded" src="https://user-images.githubusercontent.com/6395465/138991431-54e6bcc1-37f6-4663-8f24-83864e4e9f09.png">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Not Shaded <img width="100" alt="Not Shaded" src="https://user-images.githubusercontent.com/6395465/138991481-6ce5c66d-ae9b-4cdc-892e-0fbc0b046c73.png"></p>
 
 ##### Example
 ```
