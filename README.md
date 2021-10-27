@@ -165,7 +165,7 @@ https://user-images.githubusercontent.com/6395465/138800685-8761f2b2-d6ea-45e4-8
 ---
 #### shaded
 > type: Object({Boolean}) - Default: false
-###### The shadow underneath the button when not pressed in
+###### The shadow underneath the button when not pressed in. Best implemented in Light Mode
 
 ##### Example
 ```
