@@ -27,6 +27,8 @@ https://user-images.githubusercontent.com/6395465/138800685-8761f2b2-d6ea-45e4-8
 
 <img width="1791" alt="expo icons reference" src="https://user-images.githubusercontent.com/6395465/138818042-1aad09f6-53a0-4975-987a-073ca4f7039d.png">
 
+##
+
 #### Basic Usage
 > To position your floating action, use the React Native style prop
 ```
