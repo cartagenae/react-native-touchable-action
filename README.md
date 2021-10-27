@@ -80,7 +80,7 @@ https://user-images.githubusercontent.com/6395465/138800685-8761f2b2-d6ea-45e4-8
 <br />
 <br />
 <p><img width="115" alt="Button Color" src="https://user-images.githubusercontent.com/6395465/139001982-17a326a7-1438-410a-ab01-9e084181db7a.png">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<img width="115" alt="Button Color Pressed" src="https://user-images.githubusercontent.com/6395465/139001988-7f9de534-637e-41f2-ad42-d1aa07f2f1fe.png"></p>
-<p>&emsp;&ensp;Button Color&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;Button Color Pressed</p>
+<p>&emsp;&ensp;Button Color&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;Button Color Pressed</p>
 <br />
 
 ##### Example:
