@@ -151,7 +151,7 @@ https://user-images.githubusercontent.com/6395465/138800685-8761f2b2-d6ea-45e4-8
 ###### The color of the icon color when the button is pressed
 <br />
 <br />
-<p>&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;<img width="42" alt="Icon Color" src="https://user-images.githubusercontent.com/6395465/138996043-ace2d03e-7424-4e72-b57f-ec28768f8ab9.png">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<img width="42" alt="Icon Color Pressed" src="https://user-images.githubusercontent.com/6395465/138996049-3d820c1a-6eaf-4492-aff0-24c10125bfc8.png"></p>
+<p>&emsp;&emsp;&emsp;&emsp;&ensp;<img width="42" alt="Icon Color" src="https://user-images.githubusercontent.com/6395465/138996043-ace2d03e-7424-4e72-b57f-ec28768f8ab9.png">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<img width="42" alt="Icon Color Pressed" src="https://user-images.githubusercontent.com/6395465/138996049-3d820c1a-6eaf-4492-aff0-24c10125bfc8.png"></p>
 <p>&emsp;&emsp;&emsp;Icon Color&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Icon Color Pressed</p>
 <br />
 
