@@ -57,7 +57,7 @@ https://user-images.githubusercontent.com/6395465/138800685-8761f2b2-d6ea-45e4-8
 > Default: #480ca8
 ###### The color of the button
 
-Example:
+##### Example:
 ```
 <FloatingActionButton
   IconSource='Ionicons'
@@ -75,7 +75,7 @@ Example:
 > Default: #6a4c93
 ###### The color of the button when pressed in
 
-Example:
+##### Example:
 ```
 <FloatingActionButton
   IconSource='Ionicons'
@@ -93,12 +93,26 @@ Example:
 > <br/>
 > Default: 65
 ###### The size of the button
+
+##### Example
+```
+<FloatingActionButton
+  IconSource='Ionicons'
+  iconName='rocket'
+  onPress={() => {
+    console.log('You pressed the rocket button');
+  }}
+  buttonColor='#0F044C'
+  buttonColorPressed='#693C72'
+  buttonSize={75}
+/>
+```
 ---
 #### iconSize
 > type: Object({Number})<br/>
 > <br/>
 > Default: 40
-###### The size of the icon inside the button
+###### The size of the icon inside the button. This only changes the size of the icon inside the button, not the size of the button itself
 ---
 #### iconColor
 > type: String<br/>
