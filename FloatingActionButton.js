@@ -30,7 +30,7 @@ const FloatingActionButton = (props) => {
     iconSize,
     iconColor,
     iconColorPressed,
-    onPress, // required
+    onPress,
     shaded
   } = props;
   const [pressedIn, setPressedIn] = useState(false);
