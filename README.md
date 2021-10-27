@@ -37,8 +37,8 @@ https://user-images.githubusercontent.com/6395465/138800685-8761f2b2-d6ea-45e4-8
   }}
   style={{
     position='absolute',
-    bottom=65,
-    right=60,
+    bottom=75,
+    right=50,
   }}
 />
 ```
