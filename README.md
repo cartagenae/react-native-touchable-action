@@ -87,6 +87,11 @@ https://user-images.githubusercontent.com/6395465/138800685-8761f2b2-d6ea-45e4-8
 #### buttonSize
 > type: Object({Number}) - Default: 65
 ###### The size of the button
+<br />
+<br />
+<p><img width="105" alt="Button Size 75" src="https://user-images.githubusercontent.com/6395465/139000330-ce9189d8-2023-413a-aa13-5c6f22f363c0.png">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<img width="125" alt="Button Size 55" src="https://user-images.githubusercontent.com/6395465/139000318-120dcbf4-e794-4747-9570-ee763b9e3547.png"></p>
+<p>&emsp;&ensp;Button Size 75&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;Button Size 55</p>
+<br />
 
 ##### Example
 ```
