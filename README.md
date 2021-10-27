@@ -112,7 +112,8 @@ https://user-images.githubusercontent.com/6395465/138800685-8761f2b2-d6ea-45e4-8
 > type: Object({Number})<br/>
 > <br/>
 > Default: 40
-###### The size of the icon inside the button. This only changes the size of the icon inside the button, not the size of the button itself
+###### The size of the icon inside the button.
+###### This only changes the size of the icon inside the button, not the size of the button itself
 ---
 #### iconColor
 > type: String<br/>
