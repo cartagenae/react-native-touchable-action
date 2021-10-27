@@ -56,7 +56,7 @@ https://user-images.githubusercontent.com/6395465/138800685-8761f2b2-d6ea-45e4-8
 > <br/>
 > Default: #480ca8
 ###### The color of the button
-<br />
+
 Example:
 ```
 <FloatingActionButton
@@ -74,7 +74,7 @@ Example:
 > <br/>
 > Default: #6a4c93
 ###### The color of the button when pressed in
-<br />
+
 Example:
 ```
 <FloatingActionButton
