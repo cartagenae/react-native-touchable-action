@@ -35,8 +35,15 @@ https://user-images.githubusercontent.com/6395465/138800685-8761f2b2-d6ea-45e4-8
   onPress={() => {
     console.log('You pressed the rocket button');
   }}
+  style={{
+    position='absolute',
+    bottom=65,
+    right=60,
+  }}
 />
 ```
+
+> To position your floating action, use the React Native style prop
 
 ### Props:
 #### IconSource (required)
