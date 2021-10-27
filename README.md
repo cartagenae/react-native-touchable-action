@@ -52,9 +52,7 @@ https://user-images.githubusercontent.com/6395465/138800685-8761f2b2-d6ea-45e4-8
 ###### The action when the user presses the button
 ---
 #### buttonColor
-> type: String<br/>
-> <br/>
-> Default: #480ca8
+> type: String - Default: #480ca8
 ###### The color of the button
 
 ##### Example:
@@ -70,9 +68,7 @@ https://user-images.githubusercontent.com/6395465/138800685-8761f2b2-d6ea-45e4-8
 ```
 ---
 #### buttonColorPressed
-> type: String<br/>
-> <br/>
-> Default: #6a4c93
+> type: String - Default: #6a4c93
 ###### The color of the button when pressed in
 
 ##### Example:
@@ -89,9 +85,7 @@ https://user-images.githubusercontent.com/6395465/138800685-8761f2b2-d6ea-45e4-8
 ```
 ---
 #### buttonSize
-> type: Object({Number})<br/>
-> <br/>
-> Default: 65
+> type: Object({Number}) - Default: 65
 ###### The size of the button
 
 ##### Example
@@ -109,9 +103,7 @@ https://user-images.githubusercontent.com/6395465/138800685-8761f2b2-d6ea-45e4-8
 ```
 ---
 #### iconSize
-> type: Object({Number})<br/>
-> <br/>
-> Default: 40
+> type: Object({Number}) - Default: 40
 ###### The size of the icon inside the button.
 ###### This only changes the size of the icon inside the button, not the size of the button itself
 
@@ -131,9 +123,7 @@ https://user-images.githubusercontent.com/6395465/138800685-8761f2b2-d6ea-45e4-8
 ```
 ---
 #### iconColor
-> type: String<br/>
-> <br/>
-> Default: #edf6f9
+> type: String - Default: #edf6f9
 ###### The color of the icon inside the button
 
 ##### Example
@@ -153,9 +143,7 @@ https://user-images.githubusercontent.com/6395465/138800685-8761f2b2-d6ea-45e4-8
 ```
 ---
 #### iconColorPressed
-> type: String<br/>
-> <br/>
-> Default: #e2eafc
+> type: String - Default: #e2eafc
 ###### The color of the icon color when the button is pressed
 
 ##### Example
@@ -176,9 +164,7 @@ https://user-images.githubusercontent.com/6395465/138800685-8761f2b2-d6ea-45e4-8
 ```
 ---
 #### shaded
-> type: Object({Boolean})<br/>
-> <br/>
-> Default: false
+> type: Object({Boolean}) - Default: false
 ###### The shadow underneath the button when not pressed in
 
 ##### Example
