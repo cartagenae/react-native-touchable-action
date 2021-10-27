@@ -145,6 +145,11 @@ https://user-images.githubusercontent.com/6395465/138800685-8761f2b2-d6ea-45e4-8
 #### iconColorPressed
 > type: String - Default: #e2eafc
 ###### The color of the icon color when the button is pressed
+<br />
+<br />
+<p><img width="110" alt="Shaded" src="https://user-images.githubusercontent.com/6395465/138994543-6ca5a2d5-b6c2-495b-8f1a-cddf4c99ee81.png">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<img width="110" alt="Not Shaded" src="https://user-images.githubusercontent.com/6395465/138994576-907d004b-04e4-4d94-a8d1-614e02dce40d.png"></p>
+<p>&emsp;&ensp;Icon Color&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;Icon Color Pressed</p>
+<br />
 
 ##### Example
 ```
@@ -159,7 +164,7 @@ https://user-images.githubusercontent.com/6395465/138800685-8761f2b2-d6ea-45e4-8
   buttonSize={75}
   iconSize={35}
   iconColor='#edf6f9'
-  iconColorPressed='#e2eafc'
+  iconColorPressed='#c9ccd5'
 />
 ```
 ---
@@ -185,7 +190,7 @@ https://user-images.githubusercontent.com/6395465/138800685-8761f2b2-d6ea-45e4-8
   buttonSize={75}
   iconSize={35}
   iconColor='#edf6f9'
-  iconColorPressed='#e2eafc'
+  iconColorPressed='#c9ccd5'
   shaded={true}
 />
 ```
