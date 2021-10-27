@@ -114,6 +114,21 @@ https://user-images.githubusercontent.com/6395465/138800685-8761f2b2-d6ea-45e4-8
 > Default: 40
 ###### The size of the icon inside the button.
 ###### This only changes the size of the icon inside the button, not the size of the button itself
+
+##### Example
+```
+<FloatingActionButton
+  IconSource='Ionicons'
+  iconName='rocket'
+  onPress={() => {
+    console.log('You pressed the rocket button');
+  }}
+  buttonColor='#0F044C'
+  buttonColorPressed='#693C72'
+  buttonSize={75}
+  iconSize={35}
+/>
+```
 ---
 #### iconColor
 > type: String<br/>
