@@ -135,18 +135,69 @@ https://user-images.githubusercontent.com/6395465/138800685-8761f2b2-d6ea-45e4-8
 > <br/>
 > Default: #edf6f9
 ###### The color of the icon inside the button
+
+##### Example
+```
+<FloatingActionButton
+  IconSource='Ionicons'
+  iconName='rocket'
+  onPress={() => {
+    console.log('You pressed the rocket button');
+  }}
+  buttonColor='#0F044C'
+  buttonColorPressed='#693C72'
+  buttonSize={75}
+  iconSize={35}
+  iconColor='#edf6f9'
+/>
+```
 ---
 #### iconColorPressed
 > type: String<br/>
 > <br/>
 > Default: #e2eafc
 ###### The color of the icon color when the button is pressed
+
+##### Example
+```
+<FloatingActionButton
+  IconSource='Ionicons'
+  iconName='rocket'
+  onPress={() => {
+    console.log('You pressed the rocket button');
+  }}
+  buttonColor='#0F044C'
+  buttonColorPressed='#693C72'
+  buttonSize={75}
+  iconSize={35}
+  iconColor='#edf6f9'
+  iconColorPressed='#e2eafc'
+/>
+```
 ---
 #### shaded
 > type: Object({Boolean})<br/>
 > <br/>
 > Default: false
 ###### The shadow underneath the button when not pressed in
+
+##### Example
+```
+<FloatingActionButton
+  IconSource='Ionicons'
+  iconName='rocket'
+  onPress={() => {
+    console.log('You pressed the rocket button');
+  }}
+  buttonColor='#0F044C'
+  buttonColorPressed='#693C72'
+  buttonSize={75}
+  iconSize={35}
+  iconColor='#edf6f9'
+  iconColorPressed='#e2eafc'
+  shaded={true}
+/>
+```
 
 ## License
 
