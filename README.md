@@ -75,11 +75,10 @@ onPress={() => {
 
 #### buttonColor
 > type: String - Default: #480ca8
+###### The color of the button
 ```
 buttonColor='#0F044C'
 ```
-###### The color of the button
-
 ##### Example:
 ```
 <FloatingActionButton
@@ -101,16 +100,15 @@ buttonColor='#0F044C'
 
 #### buttonColorPressed
 > type: String - Default: #6a4c93
-```
-buttonColorPressed='#693C72'
-```
 ###### The color of the button when pressed in
 <br />
 <br />
 <p>&emsp;<img width="115" alt="Button Color" src="https://user-images.githubusercontent.com/6395465/139001982-17a326a7-1438-410a-ab01-9e084181db7a.png">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<img width="115" alt="Button Color Pressed" src="https://user-images.githubusercontent.com/6395465/139001988-7f9de534-637e-41f2-ad42-d1aa07f2f1fe.png"></p>
 <p>&emsp;&emsp;Button Color&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;Button Color Pressed</p>
 <br />
-
+```
+buttonColorPressed='#693C72'
+```
 ##### Example:
 ```
 <FloatingActionButton
