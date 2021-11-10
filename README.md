@@ -109,6 +109,7 @@ buttonColor='#0F044C'
 ```
 buttonColorPressed='#693C72'
 ```
+
 ##### Example:
 ```
 <FloatingActionButton
@@ -140,6 +141,7 @@ buttonColorPressed='#693C72'
 ```
 buttonSize={75}
 ```
+
 ##### Example
 ```
 <FloatingActionButton
@@ -172,6 +174,7 @@ buttonSize={75}
 ```
 iconSize={35}
 ```
+
 ##### Example
 ```
 <FloatingActionButton
@@ -200,6 +203,7 @@ iconSize={35}
 ```
 iconColor='#edf6f9'
 ```
+
 ##### Example
 ```
 <FloatingActionButton
@@ -234,6 +238,7 @@ iconColor='#edf6f9'
 ```
 iconColorPressed='#c9ccd5'
 ```
+
 ##### Example
 ```
 <FloatingActionButton
@@ -269,6 +274,7 @@ iconColorPressed='#c9ccd5'
 ```
 shaded={true}
 ```
+
 ##### Example
 ```
 <FloatingActionButton
