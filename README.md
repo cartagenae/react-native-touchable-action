@@ -50,13 +50,17 @@ https://user-images.githubusercontent.com/6395465/138800685-8761f2b2-d6ea-45e4-8
 #### IconSource (required)
 > type: String
 ###### The source of the icon
-
+```
+IconSource='Ionicons'
+```
 ##
 
 #### iconName (required)
 > type: String
 ###### The name of the icon
-
+```
+iconName='rocket'
+```
 ##
 
 #### onPress
@@ -68,6 +72,9 @@ https://user-images.githubusercontent.com/6395465/138800685-8761f2b2-d6ea-45e4-8
 #### buttonColor
 > type: String - Default: #480ca8
 ###### The color of the button
+```
+buttonColor='#0F044C'
+```
 
 ##### Example:
 ```
