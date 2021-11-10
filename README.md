@@ -66,7 +66,11 @@ iconName='rocket'
 #### onPress
 > type: Object({Function})
 ###### The action when the user presses the button
-
+```
+onPress={() => {
+  console.log('You pressed the rocket button');
+}
+```
 ##
 
 #### buttonColor
@@ -103,7 +107,9 @@ buttonColor='#0F044C'
 <p>&emsp;<img width="115" alt="Button Color" src="https://user-images.githubusercontent.com/6395465/139001982-17a326a7-1438-410a-ab01-9e084181db7a.png">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<img width="115" alt="Button Color Pressed" src="https://user-images.githubusercontent.com/6395465/139001988-7f9de534-637e-41f2-ad42-d1aa07f2f1fe.png"></p>
 <p>&emsp;&emsp;Button Color&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;Button Color Pressed</p>
 <br />
-
+```
+buttonColorPressed='#693C72'
+```
 ##### Example:
 ```
 <FloatingActionButton
@@ -132,7 +138,9 @@ buttonColor='#0F044C'
 <p>&emsp;&ensp;<img width="105" alt="Button Size 75" src="https://user-images.githubusercontent.com/6395465/139000330-ce9189d8-2023-413a-aa13-5c6f22f363c0.png">&emsp;&emsp;&emsp;&emsp;&emsp;<img width="125" alt="Button Size 55" src="https://user-images.githubusercontent.com/6395465/139000318-120dcbf4-e794-4747-9570-ee763b9e3547.png"></p>
 <p>&emsp;&ensp;Button Size 75&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;Button Size 55</p>
 <br />
-
+```
+buttonSize={75}
+```
 ##### Example
 ```
 <FloatingActionButton
@@ -162,7 +170,9 @@ buttonColor='#0F044C'
 <p>&emsp;<img width="105" alt="Icon Size 50" src="https://user-images.githubusercontent.com/6395465/138997150-99aa6f00-a7af-46c9-9b68-484332bb9cd1.png">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;<img width="105" alt="Icon Size 35" src="https://user-images.githubusercontent.com/6395465/138997158-f36dfa88-d5d8-48b0-b8e6-c81f654e0354.png"></p>
 <p>&emsp;&ensp;Icon Size 50&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;Icon Size 35</p>
 <br />
-
+```
+iconSize={35}
+```
 ##### Example
 ```
 <FloatingActionButton
@@ -188,7 +198,9 @@ buttonColor='#0F044C'
 #### iconColor
 > type: String - Default: #edf6f9
 ###### The color of the icon inside the button
-
+```
+iconColor='#edf6f9'
+```
 ##### Example
 ```
 <FloatingActionButton
@@ -220,7 +232,9 @@ buttonColor='#0F044C'
 <p>&emsp;&emsp;&emsp;&ensp;<img width="42" alt="Icon Color" src="https://user-images.githubusercontent.com/6395465/138996043-ace2d03e-7424-4e72-b57f-ec28768f8ab9.png">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;<img width="42" alt="Icon Color Pressed" src="https://user-images.githubusercontent.com/6395465/138996049-3d820c1a-6eaf-4492-aff0-24c10125bfc8.png"></p>
 <p>&emsp;&emsp;&ensp;Icon Color&emsp;&emsp;&emsp;&emsp;&ensp;Icon Color Pressed</p>
 <br />
-
+```
+iconColorPressed='#c9ccd5'
+```
 ##### Example
 ```
 <FloatingActionButton
@@ -253,7 +267,9 @@ buttonColor='#0F044C'
 <p><img width="110" alt="Shaded" src="https://user-images.githubusercontent.com/6395465/138994543-6ca5a2d5-b6c2-495b-8f1a-cddf4c99ee81.png">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<img width="110" alt="Not Shaded" src="https://user-images.githubusercontent.com/6395465/138994576-907d004b-04e4-4d94-a8d1-614e02dce40d.png"></p>
 <p>&emsp;&ensp;Shaded&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;Not Shaded</p>
 <br />
-
+```
+shaded={true}
+```
 ##### Example
 ```
 <FloatingActionButton
