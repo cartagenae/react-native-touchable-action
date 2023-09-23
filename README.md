@@ -9,7 +9,7 @@ npm install --save react-native-touchable-action
 ```
 or
 ```
-yarn add --save react-native-touchable-action
+yarn add react-native-touchable-action
 ```
 
 ---
