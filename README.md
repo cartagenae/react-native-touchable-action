@@ -2,22 +2,15 @@
 
 ###### A simple floating action button component for any React Native project using Expo
 
-## How to use
-#### Copy the entire FloatingActionButton.js from this repository
+## Installation
 
-https://user-images.githubusercontent.com/6395465/138796848-4c63ddc3-3d40-4780-8b22-5eb0657ac6f4.mov
-
----
-
-#### Create a FloatingActionButton.js component file and paste it there
-
-https://user-images.githubusercontent.com/6395465/138798075-6f9659cd-1f3a-4101-b146-0355a6f595f3.mov
-
----
-
-#### Import and code in your floating action button
-
-https://user-images.githubusercontent.com/6395465/138800685-8761f2b2-d6ea-45e4-8f06-c857905ba7cc.mov
+```
+npm install --save react-native-touchable-action
+```
+or
+```
+yarn add --save react-native-touchable-action
+```
 
 ---
 
@@ -30,6 +23,10 @@ https://user-images.githubusercontent.com/6395465/138800685-8761f2b2-d6ea-45e4-8
 ##
 
 #### Basic Usage
+```
+import FloatingActionButton from 'react-native-touchable-action';
+```
+
 > To position your floating action, use the React Native style prop
 ```
 <FloatingActionButton
@@ -88,9 +85,9 @@ buttonColor='#0F044C'
     console.log('You pressed the rocket button');
   }}
   style={{
-    position='absolute',
-    bottom=75,
-    right=50,
+    position: 'absolute',
+    bottom: 75,
+    right: 50,
   }}
   buttonColor='#0F044C'
 />
@@ -120,9 +117,9 @@ buttonColorPressed='#693C72'
     console.log('You pressed the rocket button');
   }}
   style={{
-    position='absolute',
-    bottom=75,
-    right=50,
+    position: 'absolute',
+    bottom: 75,
+    right: 50,
   }}
   buttonColor='#0F044C'
   buttonColorPressed='#693C72'
@@ -153,9 +150,9 @@ buttonSize={75}
     console.log('You pressed the rocket button');
   }}
   style={{
-    position='absolute',
-    bottom=75,
-    right=50,
+    position: 'absolute',
+    bottom: 75,
+    right: 50,
   }}
   buttonColor='#0F044C'
   buttonColorPressed='#693C72'
@@ -187,9 +184,9 @@ iconSize={35}
     console.log('You pressed the rocket button');
   }}
   style={{
-    position='absolute',
-    bottom=75,
-    right=50,
+    position: 'absolute',
+    bottom: 75,
+    right: 50,
   }}
   buttonColor='#0F044C'
   buttonColorPressed='#693C72'
@@ -216,9 +213,9 @@ iconColor='#edf6f9'
     console.log('You pressed the rocket button');
   }}
   style={{
-    position='absolute',
-    bottom=75,
-    right=50,
+    position: 'absolute',
+    bottom: 75,
+    right: 50,
   }}
   buttonColor='#0F044C'
   buttonColorPressed='#693C72'
@@ -252,9 +249,9 @@ iconColorPressed='#c9ccd5'
     console.log('You pressed the rocket button');
   }}
   style={{
-    position='absolute',
-    bottom=75,
-    right=50,
+    position: 'absolute',
+    bottom: 75,
+    right: 50,
   }}
   buttonColor='#0F044C'
   buttonColorPressed='#693C72'
@@ -289,9 +286,9 @@ shaded={true}
     console.log('You pressed the rocket button');
   }}
   style={{
-    position='absolute',
-    bottom=75,
-    right=50,
+    position: 'absolute',
+    bottom: 75,
+    right: 50,
   }}
   buttonColor='#0F044C'
   buttonColorPressed='#693C72'
