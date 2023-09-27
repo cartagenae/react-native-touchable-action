@@ -1,4 +1,4 @@
-# React Native Floating Action Button
+# React Native Touchable Action
 
 ###### A simple floating action button component for any React Native project using Expo
 
