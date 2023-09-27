@@ -4,7 +4,8 @@
 
 iOS                 | Android
 :------------------:|:------------------:
-![iOSMainDemonstration](https://github.com/cartagenae/react-native-touchable-action/assets/6395465/7e25f3bf-bf82-4bfa-9dac-a93896db6798) | ![AndroidMainDemonstration](https://github.com/cartagenae/react-native-touchable-action/assets/6395465/8c294255-b0a6-49d9-9043-b2e63878e08e)
+![iOSMainDemonstration](https://github.com/cartagenae/react-native-touchable-action/assets/6395465/7e25f3bf-bf82-4bfa-9dac-a93896db6798) | ![AndroidMainDemonstration](https://github.com/cartagenae/react-native-touchable-action/assets/6395465/f1198ec9-df99-4e88-9a57-578d7143c040)
+
 
 ---
 
