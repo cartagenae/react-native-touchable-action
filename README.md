@@ -302,4 +302,4 @@ shaded={true}
 
 ## License
 
-React Native Floating Action Button is under the **MIT License**. See bundled <a href='https://github.com/cartagenae/react-native-floating-action-button/blob/main/LICENSE' alt='license file'>**LICENSE**</a> file for details.
+React Native Floating Action Button is under the **MIT License**. See bundled <a href='https://github.com/cartagenae/react-native-touchable-action/blob/main/LICENSE' alt='license file'>**LICENSE**</a> file for details.
