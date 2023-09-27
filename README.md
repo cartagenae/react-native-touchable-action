@@ -2,6 +2,12 @@
 
 ###### A simple floating action button component for any React Native project using Expo
 
+iOS                 | Android
+:------------------:|:------------------:
+![iOSMainDemonstration](https://github.com/cartagenae/react-native-touchable-action/assets/6395465/7e25f3bf-bf82-4bfa-9dac-a93896db6798) | ![AndroidMainDemonstration](https://github.com/cartagenae/react-native-touchable-action/assets/6395465/8c294255-b0a6-49d9-9043-b2e63878e08e)
+
+---
+
 ## Installation
 
 ```
@@ -98,11 +104,10 @@ buttonColor='#0F044C'
 #### buttonColorPressed
 > type: String - Default: #6a4c93
 ###### The color of the button when pressed in
-<br />
-<br />
-<p>&emsp;<img width="115" alt="Button Color" src="https://user-images.githubusercontent.com/6395465/139001982-17a326a7-1438-410a-ab01-9e084181db7a.png">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<img width="115" alt="Button Color Pressed" src="https://user-images.githubusercontent.com/6395465/139001988-7f9de534-637e-41f2-ad42-d1aa07f2f1fe.png"></p>
-<p>&emsp;&emsp;Button Color&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;Button Color Pressed</p>
-<br />
+
+<img width="115" alt="ButtonColor" src="https://github.com/cartagenae/react-native-touchable-action/assets/6395465/f4f4e2eb-3f23-43f2-9370-ab29ddf24c89"> | <img width="115" alt="ButtonColorPressed" src="https://github.com/cartagenae/react-native-touchable-action/assets/6395465/461722b4-a1f1-4447-8ef6-195e0787967e">
+:------------------:|:------------------:
+ ButtonColor        | ButtonColorPressed
 
 ```
 buttonColorPressed='#693C72'
@@ -131,11 +136,10 @@ buttonColorPressed='#693C72'
 #### buttonSize
 > type: Object({Number}) - Default: 65
 ###### The size of the button
-<br />
-<br />
-<p>&emsp;&ensp;<img width="105" alt="Button Size 75" src="https://user-images.githubusercontent.com/6395465/139000330-ce9189d8-2023-413a-aa13-5c6f22f363c0.png">&emsp;&emsp;&emsp;&emsp;&emsp;<img width="125" alt="Button Size 55" src="https://user-images.githubusercontent.com/6395465/139000318-120dcbf4-e794-4747-9570-ee763b9e3547.png"></p>
-<p>&emsp;&ensp;Button Size 75&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;Button Size 55</p>
-<br />
+
+<img width="105" alt="Size75" src="https://github.com/cartagenae/react-native-touchable-action/assets/6395465/a6cd92cd-4e84-4eca-9c66-16b001b08555"> | <img width="125" alt="Size55" src="https://github.com/cartagenae/react-native-touchable-action/assets/6395465/f3e8a40b-6181-46dd-89ba-4eb49aa080e3">
+:--------------:|:--------------:
+ Button Size 75 | Button Size 55
 
 ```
 buttonSize={75}
@@ -165,11 +169,11 @@ buttonSize={75}
 #### iconSize
 > type: Object({Number}) - Default: 40
 ###### The size of the icon inside the button.
-###### This only changes the size of the icon inside the button, not the size of the button itself<br />
-<br />
-<p>&emsp;<img width="105" alt="Icon Size 50" src="https://user-images.githubusercontent.com/6395465/138997150-99aa6f00-a7af-46c9-9b68-484332bb9cd1.png">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;<img width="105" alt="Icon Size 35" src="https://user-images.githubusercontent.com/6395465/138997158-f36dfa88-d5d8-48b0-b8e6-c81f654e0354.png"></p>
-<p>&emsp;&ensp;Icon Size 50&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;Icon Size 35</p>
-<br />
+###### This only changes the size of the icon inside the button, not the size of the button itself
+
+<img width="105" alt="Icon50" src="https://github.com/cartagenae/react-native-touchable-action/assets/6395465/ab76f0b2-039d-4cb6-89a1-cb4b4be367c3"> | <img width="105" alt="Icon35" src="https://github.com/cartagenae/react-native-touchable-action/assets/6395465/63220fcd-b598-4ab1-94f2-5b46f6184d67">
+:------------:|:------------:
+ Icon Size 50 | Icon Size 35
 
 ```
 iconSize={35}
@@ -230,11 +234,10 @@ iconColor='#edf6f9'
 #### iconColorPressed
 > type: String - Default: #e2eafc
 ###### The color of the icon color when the button is pressed
-<br />
-<br />
-<p>&emsp;&emsp;&emsp;&ensp;<img width="42" alt="Icon Color" src="https://user-images.githubusercontent.com/6395465/138996043-ace2d03e-7424-4e72-b57f-ec28768f8ab9.png">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;<img width="42" alt="Icon Color Pressed" src="https://user-images.githubusercontent.com/6395465/138996049-3d820c1a-6eaf-4492-aff0-24c10125bfc8.png"></p>
-<p>&emsp;&emsp;&ensp;Icon Color&emsp;&emsp;&emsp;&emsp;&ensp;Icon Color Pressed</p>
-<br />
+
+<img width="42" alt="IconColor" src="https://github.com/cartagenae/react-native-touchable-action/assets/6395465/88de584d-85cd-4731-8630-6418a492d7ba"> | <img width="42" alt="IconColorPressed" src="https://github.com/cartagenae/react-native-touchable-action/assets/6395465/62c7c0ed-e8d0-4c98-9abe-6a04f07539e6">
+:------------------:|:------------------:
+ Icon color         | Icon Color Pressed
 
 ```
 iconColorPressed='#c9ccd5'
@@ -267,11 +270,10 @@ iconColorPressed='#c9ccd5'
 #### shaded
 > type: Object({Boolean}) - Default: false
 ###### The shadow underneath the button when not pressed in. Works best in Light Mode
-<br />
-<br />
-<p><img width="110" alt="Shaded" src="https://user-images.githubusercontent.com/6395465/138994543-6ca5a2d5-b6c2-495b-8f1a-cddf4c99ee81.png">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<img width="110" alt="Not Shaded" src="https://user-images.githubusercontent.com/6395465/138994576-907d004b-04e4-4d94-a8d1-614e02dce40d.png"></p>
-<p>&emsp;&ensp;Shaded&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;Not Shaded</p>
-<br />
+
+<img width="110" alt="Shaded" src="https://github.com/cartagenae/react-native-touchable-action/assets/6395465/f3800c2b-8304-49e7-83e0-5a3d4584a8f0"> | <img width="110" alt="NotShaded" src="https://github.com/cartagenae/react-native-touchable-action/assets/6395465/e2f2b19d-d34a-48d7-ba14-c0078899ac38">
+:----------:|:----------:
+ Shaded     | Not Shaded
 
 ```
 shaded={true}
