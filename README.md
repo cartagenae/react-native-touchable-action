@@ -11,11 +11,11 @@ iOS                 | Android
 
 ## Installation
 
-```
+```js
 npm install --save react-native-touchable-action
 ```
 or
-```
+```js
 yarn add react-native-touchable-action
 ```
 
@@ -54,7 +54,7 @@ import FloatingActionButton from 'react-native-touchable-action';
 #### IconSource (required)
 > type: String
 ###### The source of the icon
-```
+```js
 IconSource='Ionicons'
 ```
 ##
@@ -62,7 +62,7 @@ IconSource='Ionicons'
 #### iconName (required)
 > type: String
 ###### The name of the icon
-```
+```js
 iconName='rocket'
 ```
 ##
@@ -70,7 +70,7 @@ iconName='rocket'
 #### onPress
 > type: Object({Function})
 ###### The action when the user presses the button
-```
+```js
 onPress={() => {
   console.log('You pressed the rocket button');
 }
@@ -80,11 +80,11 @@ onPress={() => {
 #### buttonColor
 > type: String - Default: #480ca8
 ###### The color of the button
-```
+```js
 buttonColor='#0F044C'
 ```
 ##### Example:
-```
+```js
 <FloatingActionButton
   IconSource='Ionicons'
   iconName='rocket'
@@ -110,12 +110,12 @@ buttonColor='#0F044C'
 :------------------:|:------------------:
  ButtonColor        | ButtonColorPressed
 
-```
+```js
 buttonColorPressed='#693C72'
 ```
 
 ##### Example:
-```
+```js
 <FloatingActionButton
   IconSource='Ionicons'
   iconName='rocket'
@@ -142,12 +142,12 @@ buttonColorPressed='#693C72'
 :--------------:|:--------------:
  Button Size 75 | Button Size 55
 
-```
+```js
 buttonSize={75}
 ```
 
 ##### Example
-```
+```js
 <FloatingActionButton
   IconSource='Ionicons'
   iconName='rocket'
@@ -176,12 +176,12 @@ buttonSize={75}
 :------------:|:------------:
  Icon Size 50 | Icon Size 35
 
-```
+```js
 iconSize={35}
 ```
 
 ##### Example
-```
+```js
 <FloatingActionButton
   IconSource='Ionicons'
   iconName='rocket'
@@ -205,12 +205,12 @@ iconSize={35}
 #### iconColor
 > type: String - Default: #edf6f9
 ###### The color of the icon inside the button
-```
+```js
 iconColor='#edf6f9'
 ```
 
 ##### Example
-```
+```js
 <FloatingActionButton
   IconSource='Ionicons'
   iconName='rocket'
@@ -240,12 +240,12 @@ iconColor='#edf6f9'
 :------------------:|:------------------:
  Icon color         | Icon Color Pressed
 
-```
+```js
 iconColorPressed='#c9ccd5'
 ```
 
 ##### Example
-```
+```js
 <FloatingActionButton
   IconSource='Ionicons'
   iconName='rocket'
@@ -276,12 +276,12 @@ iconColorPressed='#c9ccd5'
 :----------:|:----------:
  Shaded     | Not Shaded
 
-```
+```js
 shaded={true}
 ```
 
 ##### Example
-```
+```js
 <FloatingActionButton
   IconSource='Ionicons'
   iconName='rocket'
