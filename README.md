@@ -32,10 +32,10 @@ yarn add react-native-touchable-action
 #### Basic Usage
 
 > To position your floating action, use the React Native style prop
-```
+```js
 import FloatingActionButton from 'react-native-touchable-action';
 ```
-```
+```js
 <FloatingActionButton
   IconSource='Ionicons'
   iconName='rocket'
