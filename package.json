@@ -1,6 +1,6 @@
 {
   "name": "react-native-touchable-action",
-  "version": "1.0.1",
+  "version": "1.0.11",
   "description": "A simple floating action button component for any React Native project using Expo",
   "main": "FloatingActionButton.js",
   "author": "Eric Cartagena",
