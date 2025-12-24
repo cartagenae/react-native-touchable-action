@@ -5,9 +5,11 @@
   "main": "FloatingActionButton.js",
   "author": "Eric Cartagena",
   "license": "MIT",
-  "dependencies": {
-    "@expo/vector-icons": "^14.1.0",
+  "peerDependencies": {
     "react": "^19.0.0",
     "react-native": "^0.79.5"
+  },
+  "dependencies": {
+    "@expo/vector-icons": "^14.1.0"
   }
 }

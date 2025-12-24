@@ -29,28 +29,71 @@ yarn add react-native-touchable-action
 
 ##
 
-#### Basic Usage
-
-> To position your floating action, use the React Native style prop
+#### Import the FloatingActionButton component
 ```js
 import FloatingActionButton from 'react-native-touchable-action';
 ```
+#### Usage
 ```js
-<FloatingActionButton
-  IconSource='Ionicons'
-  iconName='rocket'
-  onPress={() => {
-    console.log('You pressed the rocket button');
-  }}
-  style={{
-    position='absolute',
-    bottom=75,
-    right=50,
-  }}
-/>
-```
+import React from 'react';
+import {
+  Text,
+  View,
+  StyleSheet,
+} from 'react-native';
 
+import FloatingActionButton from 'react-native-touchable-action';
+
+const App = () => {
+  return (
+    <View
+      style={styles.container}
+    >
+      <Text>React Native Touchable Action</Text>
+
+      <FloatingActionButton
+        IconSource='Ionicons'
+        iconName='rocket'
+        onPress={() => {
+          console.log('You pressed the rocket button');
+        }}
+        style={{
+          position: 'absolute',
+          bottom: 75,
+          right: 50,
+        }}
+      />
+    </View>
+  )
+}
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#fff',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+})
+
+export default App;
+```
+---
 ### Props:
+
+| Prop               | Type                                 | Required  | Description
+| :---               | :---                                 | :---      | :---
+| IconSource         | *String*                             | ***Yes*** | The source of the icon
+| iconName           | *String*                             | ***Yes*** | The name of the icon
+| onPress            | *Object({Function})*                 | No        | The action when the user presses the button
+| buttonColor        | *String* - Default: #480ca8        | No        | The color of the button
+| buttonColorPressed | *String* - Default: #6a4c93        | No        | The color of the button when pressed in
+| buttonSize         | *Object({Number})* - Default: 65     | No        | The size of the button
+| iconSize           | *Object({Number})* - Default: 40     | No        | The size of the icon inside the button
+| iconColor          | *String* - Default: #edf6f9        | No        | The color of the icon inside the button
+| iconColorPressed   | *String* - Default: #e2eafc        | No        | The color of the icon color when the button is pressed
+| shaded             | *Object({Boolean})* - Default: false | No        | The shadow underneath the button when not pressed in. Works best in Light Mode
+---
 #### IconSource (required)
 > type: String
 ###### The source of the icon
@@ -58,7 +101,7 @@ import FloatingActionButton from 'react-native-touchable-action';
 IconSource='Ionicons'
 ```
 ##
-
+---
 #### iconName (required)
 > type: String
 ###### The name of the icon
@@ -66,7 +109,7 @@ IconSource='Ionicons'
 iconName='rocket'
 ```
 ##
-
+---
 #### onPress
 > type: Object({Function})
 ###### The action when the user presses the button
@@ -76,14 +119,14 @@ onPress={() => {
 }
 ```
 ##
-
+---
 #### buttonColor
 > type: String - Default: #480ca8
 ###### The color of the button
 ```js
 buttonColor='#0F044C'
 ```
-##### Example:
+---
 ```js
 <FloatingActionButton
   IconSource='Ionicons'
@@ -99,9 +142,8 @@ buttonColor='#0F044C'
   buttonColor='#0F044C'
 />
 ```
-
 ##
-
+---
 #### buttonColorPressed
 > type: String - Default: #6a4c93
 ###### The color of the button when pressed in
@@ -113,8 +155,7 @@ buttonColor='#0F044C'
 ```js
 buttonColorPressed='#693C72'
 ```
-
-##### Example:
+---
 ```js
 <FloatingActionButton
   IconSource='Ionicons'
@@ -131,9 +172,8 @@ buttonColorPressed='#693C72'
   buttonColorPressed='#693C72'
 />
 ```
-
 ##
-
+---
 #### buttonSize
 > type: Object({Number}) - Default: 65
 ###### The size of the button
@@ -145,8 +185,7 @@ buttonColorPressed='#693C72'
 ```js
 buttonSize={75}
 ```
-
-##### Example
+---
 ```js
 <FloatingActionButton
   IconSource='Ionicons'
@@ -164,12 +203,11 @@ buttonSize={75}
   buttonSize={75}
 />
 ```
-
 ##
-
+---
 #### iconSize
 > type: Object({Number}) - Default: 40
-###### The size of the icon inside the button.
+###### The size of the icon inside the button
 ###### This only changes the size of the icon inside the button, not the size of the button itself
 
 <img width="105" alt="Icon50" src="https://github.com/cartagenae/react-native-touchable-action/assets/6395465/ab76f0b2-039d-4cb6-89a1-cb4b4be367c3"> | <img width="105" alt="Icon35" src="https://github.com/cartagenae/react-native-touchable-action/assets/6395465/63220fcd-b598-4ab1-94f2-5b46f6184d67">
@@ -179,8 +217,7 @@ buttonSize={75}
 ```js
 iconSize={35}
 ```
-
-##### Example
+---
 ```js
 <FloatingActionButton
   IconSource='Ionicons'
@@ -199,17 +236,15 @@ iconSize={35}
   iconSize={35}
 />
 ```
-
 ##
-
+---
 #### iconColor
 > type: String - Default: #edf6f9
 ###### The color of the icon inside the button
 ```js
 iconColor='#edf6f9'
 ```
-
-##### Example
+---
 ```js
 <FloatingActionButton
   IconSource='Ionicons'
@@ -229,9 +264,8 @@ iconColor='#edf6f9'
   iconColor='#edf6f9'
 />
 ```
-
 ##
-
+---
 #### iconColorPressed
 > type: String - Default: #e2eafc
 ###### The color of the icon color when the button is pressed
@@ -243,8 +277,7 @@ iconColor='#edf6f9'
 ```js
 iconColorPressed='#c9ccd5'
 ```
-
-##### Example
+---
 ```js
 <FloatingActionButton
   IconSource='Ionicons'
@@ -265,9 +298,8 @@ iconColorPressed='#c9ccd5'
   iconColorPressed='#c9ccd5'
 />
 ```
-
 ##
-
+---
 #### shaded
 > type: Object({Boolean}) - Default: false
 ###### The shadow underneath the button when not pressed in. Works best in Light Mode
@@ -279,8 +311,7 @@ iconColorPressed='#c9ccd5'
 ```js
 shaded={true}
 ```
-
-##### Example
+---
 ```js
 <FloatingActionButton
   IconSource='Ionicons'
@@ -302,7 +333,7 @@ shaded={true}
   shaded={true}
 />
 ```
-
+---
 ## License
 
 React Native Floating Action Button is under the **MIT License**. See bundled <a href='https://github.com/cartagenae/react-native-touchable-action/blob/main/LICENSE' alt='license file'>**LICENSE**</a> file for details.
