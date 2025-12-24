@@ -78,7 +78,7 @@ const styles = StyleSheet.create({
 
 export default App;
 ```
----
+##
 ### Props:
 
 | Prop               | Type                                 | Required  | Description
@@ -101,7 +101,7 @@ export default App;
 IconSource='Ionicons'
 ```
 ##
----
+
 #### iconName (required)
 > type: String
 ###### The name of the icon
@@ -109,7 +109,7 @@ IconSource='Ionicons'
 iconName='rocket'
 ```
 ##
----
+
 #### onPress
 > type: Object({Function})
 ###### The action when the user presses the button
@@ -119,14 +119,14 @@ onPress={() => {
 }
 ```
 ##
----
+
 #### buttonColor
 > type: String - Default: #480ca8
 ###### The color of the button
 ```js
 buttonColor='#0F044C'
 ```
----
+
 ```js
 <FloatingActionButton
   IconSource='Ionicons'
@@ -143,7 +143,7 @@ buttonColor='#0F044C'
 />
 ```
 ##
----
+
 #### buttonColorPressed
 > type: String - Default: #6a4c93
 ###### The color of the button when pressed in
@@ -155,7 +155,7 @@ buttonColor='#0F044C'
 ```js
 buttonColorPressed='#693C72'
 ```
----
+
 ```js
 <FloatingActionButton
   IconSource='Ionicons'
@@ -173,7 +173,7 @@ buttonColorPressed='#693C72'
 />
 ```
 ##
----
+
 #### buttonSize
 > type: Object({Number}) - Default: 65
 ###### The size of the button
@@ -185,7 +185,7 @@ buttonColorPressed='#693C72'
 ```js
 buttonSize={75}
 ```
----
+
 ```js
 <FloatingActionButton
   IconSource='Ionicons'
@@ -217,7 +217,7 @@ buttonSize={75}
 ```js
 iconSize={35}
 ```
----
+
 ```js
 <FloatingActionButton
   IconSource='Ionicons'
@@ -237,14 +237,14 @@ iconSize={35}
 />
 ```
 ##
----
+
 #### iconColor
 > type: String - Default: #edf6f9
 ###### The color of the icon inside the button
 ```js
 iconColor='#edf6f9'
 ```
----
+
 ```js
 <FloatingActionButton
   IconSource='Ionicons'
@@ -277,7 +277,7 @@ iconColor='#edf6f9'
 ```js
 iconColorPressed='#c9ccd5'
 ```
----
+
 ```js
 <FloatingActionButton
   IconSource='Ionicons'
@@ -299,7 +299,7 @@ iconColorPressed='#c9ccd5'
 />
 ```
 ##
----
+
 #### shaded
 > type: Object({Boolean}) - Default: false
 ###### The shadow underneath the button when not pressed in. Works best in Light Mode
@@ -311,7 +311,7 @@ iconColorPressed='#c9ccd5'
 ```js
 shaded={true}
 ```
----
+
 ```js
 <FloatingActionButton
   IconSource='Ionicons'
