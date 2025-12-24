@@ -93,7 +93,7 @@ export default App;
 | iconColor          | *String* - Default: #edf6f9        | No        | The color of the icon inside the button
 | iconColorPressed   | *String* - Default: #e2eafc        | No        | The color of the icon color when the button is pressed
 | shaded             | *Object({Boolean})* - Default: false | No        | The shadow underneath the button when not pressed in. Works best in Light Mode
----
+
 #### IconSource (required)
 > type: String
 ###### The source of the icon
@@ -204,7 +204,7 @@ buttonSize={75}
 />
 ```
 ##
----
+
 #### iconSize
 > type: Object({Number}) - Default: 40
 ###### The size of the icon inside the button
@@ -265,7 +265,7 @@ iconColor='#edf6f9'
 />
 ```
 ##
----
+
 #### iconColorPressed
 > type: String - Default: #e2eafc
 ###### The color of the icon color when the button is pressed
