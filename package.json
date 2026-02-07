@@ -7,9 +7,30 @@
   "license": "MIT",
   "peerDependencies": {
     "react": "^19.0.0",
-    "react-native": "^0.79.5"
+    "react-native": "^0.83.1"
   },
   "dependencies": {
-    "@expo/vector-icons": "^14.1.0"
-  }
+    "@expo/vector-icons": "^15.0.3"
+  },
+  "keywords": [
+    "react-native",
+    "react-native-component",
+    "react",
+    "mobile-ui",
+    "touchable",
+    "touchable-action",
+    "touchable-component",
+    "pressable",
+    "button",
+    "interactive",
+    "onPress",
+    "gesture",
+    "gesture-handler",
+    "touch-feedback",
+    "ios",
+    "android",
+    "cross-platform",
+    "custom-button",
+    "clickable"
+  ]
 }
