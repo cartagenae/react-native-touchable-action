@@ -7,10 +7,10 @@
   "license": "MIT",
   "peerDependencies": {
     "react": "^19.0.0",
-    "react-native": "^0.83.1"
+    "react-native": "^0.83.10"
   },
   "dependencies": {
-    "@expo/vector-icons": "^15.0.3"
+    "@expo/vector-icons": "^15.1.1"
   },
   "keywords": [
     "react-native",
